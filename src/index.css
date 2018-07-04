@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #d3d3d3;
+}
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.landing-heroBlock {
+  width: 40%;
+  min-width: 31.250em;
+  margin: 0 auto;
+  padding: 50px 70px;
+  background: #333333;
+  border-radius: 5px 5px;
+  text-align: center;
+  color: #d3d3d3;
+  box-shadow: 0px 0px 5px 1px rgba(34, 34, 34, 1);
+}
+
+.text-white {
+  color: #d3d3d3;
+}
+
+.landing-heroBlock h1 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  letter-spacing: 5px;
+}
+
+.lotteryPage-form-container {
+  margin: 0 auto;
+  padding: 50px 70px;
+  width: 60%;
+  box-shadow: 0px 0px 5px 1px #333333;
+  background: #333333;
+}
+
+/* for verticle alignment */
+
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* testing */
