@@ -8,12 +8,6 @@ import { Switch, Route } from "react-router-dom"
 
 export default class App extends Component {
     
-    constructor() {
-        super()
-        this.state = {
-            page: false
-        }
-    }
 
     render() {
         return (
