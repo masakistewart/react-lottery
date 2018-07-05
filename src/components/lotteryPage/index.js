@@ -20,7 +20,7 @@ export default class LotteryPage extends Component {
                                 </div>
                             </div>
                             <div className="form-row mt-3">
-                                <button style={{width: '100%', background: 'red'}} className="btn btn-dark text-white">
+                                <button style={{width: '100%', background: 'red'}} onClick={this.props.enterBet} className="btn btn-dark text-white">
                                     place your bet
                                 </button>
                             </div>
