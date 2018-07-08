@@ -5,12 +5,7 @@ import LotteryPage from './lotteryPage'
 import { Switch, Route } from "react-router-dom"
 
 
-
 export default class App extends Component {
-
-    enterBet() {
-        return true;
-    }
 
     render() {
         return (
@@ -18,7 +13,7 @@ export default class App extends Component {
                 <Nav />
                 <Switch>
                     <Route exact path='/' component={LandingPage} />
-                    <Route exact path='/signup' render={(props) => <LotteryPage {...props} enterBet={this.enterBet} />} />
+                    <Route exact path='/signup' render={(props) => <LotteryPage {...props} />} />
                 </Switch>
             </div>
         )
